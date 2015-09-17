@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+    <formbeans>
+        <formbean name="" value=""/>
+        <formbean name="" value=""/>
+    </formbeans>
+
+    <action-mappings>
+        <action name="" class="" path="">
+            <result name="" value=""/>
+            <result name="" value=""/>
+        </action>
+        <action name="" class="" path="">
+            <result name="" value=""/>
+            <result name="" value=""/>
+        </action>
+    </action-mappings>
+</actions>

@@ -8,5 +8,5 @@ import java.util.Map;
  * Created by gao on 2015/9/17.
  */
 public interface Action {
-    String execute(HttpServletRequest request, HttpServletResponse response, Map<String, String> resultMap);
+    String execute(HttpServletRequest request, HttpServletResponse response, FormBean formBean, Map<String, String> resultMap);
 }

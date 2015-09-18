@@ -30,7 +30,9 @@ public class ActionServlet extends HttpServlet {
             e.printStackTrace();
         }
 
-        String result = action.execute(req, resp, xmlBean.getResultMap());
+        FormBean formBean = BeanGeneratorByReflect.generateBean(xmlBean.getFormBean(), req);
+
+        String result = action.execute(req, resp, formBean, xmlBean.getResultMap());
         req.getRequestDispatcher(result).forward(req, resp);
     }
 
